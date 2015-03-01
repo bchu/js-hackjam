@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-2.1.3.js"></script>
+  </head>
+  <body>
+    <%= hello %>
+    <%= name %>
+    <br>
+    <% for(var i = 0; i < friendsList.length; i++) { var friend = friendsList[i]; %>
+    <%= friend %>
+    <% } %>
+    <br>
+    <button class="get"> Get more friends </button>
+    <br>
+    <button class="send"> Send a friend </button>
+    <script src="script.js"></script>
+  </body>
+</html>
